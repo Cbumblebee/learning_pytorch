@@ -118,6 +118,18 @@ print(f"Label: {label}")
 
 
 
+"""
+Was macht stept 5 anders als step 2
+Step 2: Manuelle Indezierung
+man holt genau einen Datensatz nach dem anderen. Wenn man in einer Schleife trainieren möchte, müsste man bei jedem Durchlauf ein Bild laden.
+Step 5: DataLoader (=Batching)
+DataLoader als Wrapper für Dataset
+Batching: Statt 64 Mal den Datensatz einzeln zu fragen, fragt der DataLoader das Dataset
+ einmal nach 64 Bildern auf einmal. Das Ergebnis ist ein Tensor der Form (64, 1, 28, 28).
+Shuffle = true
+DataLoader kann parallelisieren
+"""
+
 
 
 

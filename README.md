@@ -5,6 +5,7 @@ But I decided to go with the official documentation: https://docs.pytorch.org/tu
 
 # Note: This is for arch linux, but it should work on other OS (Mac I don't know)
 To get the same requirements as me in a venv, use ``pip install -r requirements.txt``
+Note to myself: every time I install a new library, I should run this `pip freeze > requirements.txt`
 # setting up my venv + installing pytorch
 1. python -m venv .venv
 2. source .venv/bin/activate

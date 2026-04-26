@@ -22,8 +22,10 @@ torch.__version__
 ```
 
 # If you have NVIDIA/CUDA-Support:
-After installing PyTorch, you can check whether your installation recognizes your built-in NVIDIA GPU by running the following code in ```python
-import torch torch.cuda.is_available() This returns:
-True
+After installing PyTorch, you can check whether your installation recognizes your built-in NVIDIA GPU by running the following code in 
+```python
+import torch 
+torch.cuda.is_available() 
+#This returns: True
 ```
 
